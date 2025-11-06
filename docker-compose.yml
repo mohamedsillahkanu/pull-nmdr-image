@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
 
   nmdr:
-    image: mohamedsillahkanu/nmdr:3.0.0
+    image: mohamedsillahkanu/nmdr:3.0.1
     container_name: nmdr-app
     depends_on:
       db:
